@@ -22,7 +22,7 @@
             <div class="item">
             <div class="submitForm">
                     <h4 class="thirdText">Edit <?php print $row_spot_user["userName"];?>'s Data</h4>
-                <form action="database/update.php" class="formStyling" enctype="multipart/form-data" method="post">
+                <form action="includes/update.php" class="formStyling" enctype="multipart/form-data" method="post">
                     <div class="input-box">
                         <input type="text" class="input" name="userName" value="<?php print $row_spot_user["userName"];?>" required>
                         <label for="">userName</label>

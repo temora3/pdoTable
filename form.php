@@ -28,8 +28,9 @@
 
             <div class="form-box" style="height: 490px; top: 20px;">
                 <div class="button-box">
-                    <div class ="btn>"></div>
-                    <a href="form.php" class="toggled-button">Registration form</a>
+                    <div class ="btn>">
+                        <a href="form.php" class="toggled-button">Registration form</a>
+                    </div>
                 </div>
               <form action="includes/call.php" class="input-group" method="post" style="top: 120px;">
                 <input type="text" class="input-field" placeholder="Name" name="userName" required>
